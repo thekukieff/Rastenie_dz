@@ -96,6 +96,7 @@ protected:
 };
 
 class Berry:public Plod{
+public:
 	Berry TaKePlod()const {
 		Berry plod = Berry();
 		return plod;
@@ -106,6 +107,7 @@ class Berry:public Plod{
 };
 
 class Fruit :public Plod {
+public:
 	Fruit TaKePlod()const {
 		Fruit plod = Fruit();
 		return plod;
@@ -115,6 +117,7 @@ class Fruit :public Plod {
 
 };
 class Cone :public Plod {//шишки
+public:
 	Cone TaKePlod()const {
 		Cone plod = Cone();
 		return plod;
